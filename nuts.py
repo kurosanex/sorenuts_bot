@@ -9,7 +9,7 @@ def tweet(string,tweet_id):
     try:
         tw.statuses.update(status=string,in_reply_to_status_id=tweet_id)
     except:
-        tweet(string+"!",tweet_id)
+        tweet(string+"ナッツ",tweet_id)
 
 def update(_id,tweet_user,message,reply):
     tweet_user = msg['user']['screen_name']     
